@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) {
+    .heder_href_none {
+      display: none;
+    }
+  
+
+    #border_zero{
+        border: 0px;    
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    #logo_h1{
+        font-size: 9.3vw;
+    }
+    .flex_colum{
+        flex-direction: column;
+    }
+
+    #position_static{
+        position: static;
+        p{
+            margin-right: 0;
+        }
+    }
+
+    #border_zero{
+        border: 0px;    
+        
+    }
+
+    .about{
+        left: 0;
+    }
+
+    .year_other_absolut{
+        position: absolute;
+        top:-100px;
+    }
+
+    .margin_right_left{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .mardin_car{
+        margin-top: 100px;
+    }
+
+    .margin_footer_content{
+        margin-top: 20px;
+    }
+
+    #section_main{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #bordr_bottum{
+        border-bottom: 2px solid #BDBDBD;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .order{
+        order: -1;
+    }
+    #img_drive{
+        width: 100%;
+        height: 100%;
+    }
+    #text_alg_just{
+        text-align: left;
+        justify-content: start;
+    }
+  }

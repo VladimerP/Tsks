@@ -1,0 +1,182 @@
+main{ 
+    .logos{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        width: 100%;
+        height: 30vw;
+        background-image: url(../img/hw-header-background.jpg);
+        position: relative;
+        h1{
+            position: absolute;
+            left: 70px;
+            top: 90px;
+            font-family: Titillium Web;
+            font-size: 7.3vw;
+            font-style: italic;
+            size: 0;
+            font-weight: 700;
+            line-height: 9vw;
+            letter-spacing: 0em;
+            margin: 0;
+            color: #F50A4D;
+        }
+
+        .span_head{ 
+            position: absolute;
+            left: 75px;
+            top: 90px;
+            font-family: Titillium Web;
+            font-style: italic;
+            font-weight: bold;
+            letter-spacing: 0.01em;
+            color: #333333;
+            font-size: 1.5vw;
+        }
+
+        .span_footer{
+            position: absolute;
+            left: 470px;
+            top: 180px;
+            font-family: Titillium Web;
+            font-style: normal;
+            font-weight: 600;
+            font-size:  1.5vw;
+            line-height: 32px;
+            letter-spacing: 0.01em;
+            color: #333333;
+        }
+
+        .img_auto{
+            position: absolute;
+            width: 50vw;
+            height: 10vw;
+            left: 40vw;
+            top: 24vw;
+        }
+    }
+
+
+    .section_h2{
+        display: flex;
+        margin: 40px 0;
+        
+        p{ 
+            display: inline-block;
+            margin: 0 0 0 20px;
+            flex: 1;
+            border-bottom: solid 2px red;
+        }
+    }
+
+    .about{
+        display: flex;
+        margin-top:200px;
+        div{
+            position: relative;
+            h2{
+                position: absolute;
+                right: -50px;
+                top: -40px;
+                margin:0;
+            }
+            img{
+               width: 100%;
+               height: 80%;
+            }
+            p{
+                padding: 0 20% ;
+            }
+            .info_img{
+                position: absolute;
+                left: 25px;
+                top: 14vw;
+                p{
+                    font-family: Titillium Web;
+                    font-style: italic;
+                    font-weight: bold;
+                    color: #F2F2F2;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .driver{
+        margin-top: 40px;
+        padding-left: 8%;
+        padding-right: 10vw;
+        display: flex;
+        .img_and_info_driver{
+            padding-top: 5px;
+            border-top: 2px solid #BDBDBD;
+            display: flex;
+            flex-flow: column;
+            img{
+                width: 30vw;
+                height: 35vw;  
+            }          
+            .text_right{
+                text-align: right;
+                p{
+                    margin: 0;
+
+                }
+                
+            }
+            .info_driver{
+                display: flex;
+                justify-content: flex-end;
+                div{
+                    align-self: flex-end;
+                }
+                .pad_info_drive{
+                    flex:0.67;
+                }
+            }
+        }
+    }
+    
+    .car_driver{
+        padding-left: 8%;
+        padding-right: 12vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 6vw;
+        .first_div{
+            width:100%;
+            position: relative;
+            display: flex;
+            img{
+                flex: 1;
+                margin-right: 10px;
+                width: 100%;
+            }
+            .info_car_power_weight{
+                position: absolute;
+                bottom:0;
+                background: #F2F2F2;
+                opacity: 0.5;
+                backdrop-filter: blur(4px);
+                p{
+                    margin-right:150px;
+                    margin-left: 20px;
+                }
+            }
+        }   
+    }
+
+    .year_other{
+        font-family: Titillium Web;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+
+    .flex_1{
+        flex: 1;
+    }
+}
+
