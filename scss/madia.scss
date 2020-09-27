@@ -1,17 +1,50 @@
+@media screen and (max-width: 400px) {
+    #logo_h1{
+        left: 1vw;
+        top: 18vh;
+        font-size: 48px;
+        line-height: 42px;
+    }
+    main .logos .span_head{
+        top: 16.3vh;
+        left:3vw;
+    }
+
+    main .logos .span_footer{
+        font-size: 12px;
+        line-height: 21px;
+        left: 55vw;
+        top: 6vh;
+    }
+    main .logos .img_auto{
+        top:47vw+18vw;
+        left: 40vw-30vw;
+    }
+  }
+
 @media screen and (max-width: 600px) {
     .heder_href_none {
       display: none;
-    }
-  
+    } 
 
     #border_zero{
         border: 0px;    
     }
+
+    .nav_bat_non{
+        display: flex;
+    }
+
+  }
+
+  @media screen and (max-width: 700px) {
+    
   }
 
   @media screen and (max-width: 800px) {
-    #logo_h1{
-        font-size: 9.3vw;
+    main .logos .span_head{
+        font-size: 10px;
+        line-height: 21px;
     }
     .flex_colum{
         flex-direction: column;
@@ -48,7 +81,7 @@
     }
 
     .margin_footer_content{
-        margin-top: 20px;
+        padding-top: 20px;
     }
 
     #section_main{
@@ -75,4 +108,29 @@
         text-align: left;
         justify-content: start;
     }
+
+    .flex_media{
+        flex:1;
+    }
+
+    .flexus_row{
+        display: flex;
+        a{
+            flex: 1;
+        }
+    }
+
+    #foter_info{
+        margin-right: 0;
+    }
+
+   
+
+    
+
+    .race_win_power{
+        font-size: 3.3vw;
+        line-height: 20px;
+    }
   }
+

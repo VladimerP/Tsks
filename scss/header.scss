@@ -5,8 +5,11 @@ nav{
         display: flex;
         
         li{
-            padding-right: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
             align-self: center;
+
+
             img{
                 height: 30px;
             }
@@ -18,5 +21,91 @@ nav{
         li:nth-child(2){
             flex: 1;
         }
+      
     }
+    .nav_bar_invisibal{
+        display: none;
+        flex-flow: column;
+        justify-content: center;
+        a{
+            flex: 1;
+            text-align: center;
+            font-family: Titillium Web;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+            
+        }
+    }
+
 }
+
+.menu-icon-wrapper {
+    /*   background: red; */
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .menu-icon {
+      position: relative;
+      width: 30px;
+      height: 5px;
+      background-color: #fff;
+    }
+    
+    .menu-icon::before {
+      position: absolute;
+      left: 0;
+      top: -10px;
+      content: '';
+      width: 30px;
+      height: 5px;
+      background-color: #fff;
+      transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    
+    }
+    
+    .menu-icon::after {
+      position: absolute;
+      left: 0;
+      top: 10px;
+      content: '';
+      width: 30px;
+      height: 5px;
+      background-color: #fff;
+      transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+    
+    }
+    
+    .menu-icon.menu-icon-active {
+      background-color: transparent;
+    }
+    
+    .menu-icon.menu-icon-active::before {
+      transform: rotate(45deg);
+      top: 0;
+      transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    }
+    
+    .menu-icon.menu-icon-active::after {
+      transform: rotate(-45deg);
+      top: 0;
+      transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    }
+
+.nav_bat_non{
+    display: none;
+}
+
+.shadov_block {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.7; /* Значение прозрачности */
+    filter: alpha(Opacity=70);
+ 	  background: #333333;
+  }
