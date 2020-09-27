@@ -49,7 +49,7 @@ body{
 }
 
 a{
-    color:white;
+    color:#F2F2F2;;
     text-decoration: none;
 }
 
@@ -130,6 +130,23 @@ h3{
     color: #4F4F4F;
     margin: 0;
 }
+.content_blocker {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.5);
+    z-index: 4444;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+  z-index: 9999;
+}
+
+
 // put here other imports
 @import "footer";
 @import "header";

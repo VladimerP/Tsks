@@ -1,8 +1,10 @@
 main{ 
     .logos{
+        padding-top: 50px;
         img{
             width: 100%;
             height: 100%;
+            
         }
         width: 100%;
         height: 30vw;
@@ -10,14 +12,14 @@ main{
         position: relative;
         h1{
             position: absolute;
-            left: 70px;
-            top: 90px;
+            left: 10vw;
+            top: 20vh;
             font-family: Titillium Web;
-            font-size: 7.3vw;
             font-style: italic;
             size: 0;
             font-weight: 700;
-            line-height: 9vw;
+            font-size: 88px;
+            line-height: 66px;
             letter-spacing: 0em;
             margin: 0;
             color: #F50A4D;
@@ -25,25 +27,26 @@ main{
 
         .span_head{ 
             position: absolute;
-            left: 75px;
-            top: 90px;
+            left: 10vw;
+            top: 15.3vh;
             font-family: Titillium Web;
             font-style: italic;
             font-weight: bold;
+            font-size: 16px;
+            line-height: 32px;
             letter-spacing: 0.01em;
             color: #333333;
-            font-size: 1.5vw;
         }
 
         .span_footer{
             position: absolute;
-            left: 470px;
-            top: 180px;
+            left: 350px;
+            top: 13vh;
             font-family: Titillium Web;
             font-style: normal;
             font-weight: 600;
-            font-size:  1.5vw;
-            line-height: 32px;
+            font-size: 18px;
+            line-height: 32px;  
             letter-spacing: 0.01em;
             color: #333333;
         }
@@ -53,7 +56,7 @@ main{
             width: 50vw;
             height: 10vw;
             left: 40vw;
-            top: 24vw;
+            top: 27vw;
         }
     }
 

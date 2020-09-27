@@ -14,22 +14,26 @@
   <header>
     <nav class="background_dark_and_gray">
       <ol>
-        <li class="button_menu_none"></li>
+        <li class="menu-icon-wrapper nav_bat_non"><div class="menu-icon"></div></li>
         <li><img src="./img/hw-logo.svg"/></li>
         <li class="heder_href_none"><a href="#">About</a></li>
         <li class="heder_href_none"><a href="#">Drivers</a></li>
         <li class="heder_href_none"><a href="#">Car</a></li>
         <li> <button class="color_text_white">CONTACT</button></li>
       </ol>
+      <div class="nav_bar_invisibal">
+        <a href="#">About</a>
+        <a href="#">Drivers</a>
+        <a href="#">Car</a>
+      </div>
     </nav>
   </header>
-
+  <div class="content_blocker"></div>
   <main>
     <section class="logos">
       <img src="./img/hw-header-background.jpg"/>
       <span class="span_head">Racing Team</span>
-      <h1 class="foonts_for_headlines" id="logo_h1">HeadWorks F1</h1>  
-      <span class="span_footer">Code clean, care fast</span>
+      <h1 class="foonts_for_headlines" id="logo_h1">HeadWorks F1 <span class="span_footer">Code clean, care fast</span></h1>  
       <img class="img_auto" src="./img/hw-header-car.png"/>
     </section>    
     <section class="about flex_colum">
@@ -67,12 +71,12 @@
           <h3>Javan Scrioter</h3>
         </div>
         <div class="info_driver flex_1 race_win_power" id="text_alg_just">
-          <div class="pad_info_drive">
+          <div class="pad_info_drive flex_1">
             <p>Races: 122 </p>
             <p>Pole-positions: 9</p>
             <p>Podiums: 15 </p>
           </div>
-          <div>
+          <div class="flex_media">
             <p>Wins: 3</p>
             <p>Date of birth: 1994/12/10</p>
             <p>Place of birth: Madrid, Spain</p>
@@ -132,19 +136,19 @@
   </main>
 
   <footer class="background_dark_and_gray flex_colum">
-    <div class="color_text_white margin_right_left">
+    <div class="color_text_white" id="foter_info">
         <img src="./img/hw-logo.svg"/>
         <p class="">We are it company that passioned about motosport, teamwork
           innovations, and modern approaches - principles we are building 
           our team around.
         </p>
     </div>
-    <div class="margin_footer_content margin_right_left">
+    <div class="margin_footer_content flexus_row">
       <a href="#">About</a>
       <a href="#">Drivers</a>
       <a href="#">Car</a>
     </div>
-    <div class="margin_footer_content margin_right_left">
+    <div class="margin_footer_content heigh_for_forms">
       <form>
         <input type="email" size="25" value="Email" class="forms_for_comends background_dark_and_gray">
         <textarea  cols="30" rows="5" class="forms_for_comends background_dark_and_gray" >Massage</textarea>
@@ -152,5 +156,6 @@
        </form> 
     </div>
   </footer>
+  
 </body>
 </html>
